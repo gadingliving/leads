@@ -83,11 +83,11 @@ button[type="submit"]:hover {
   border: 2px solid white;
 }
 
-.footer {
-  width: 100%;
+.form-footer {
   text-align: center;
-  margin-top: 30px; 
-  padding-bottom: 20px; 
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
   font-size: 14px;
-  color: #888;
+  color: #aaa;
 }
