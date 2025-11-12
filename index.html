@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GadingLiving - Cari Properti Impian Anda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Temukan Properti Anda</h2>
+        <p>Biarkan kami membantu Anda menemukan hunian atau investasi terbaik.</p>
+        
+        <form id="propertyForm">
+            <div class="form-group">
+                <label for="tipeProperti">Sedang cari apa?</label>
+                <select id="tipeProperti" name="tipeProperti" required>
+                    <option value="">-- Pilih Tipe --</option>
+                    <option value="apartemen">Apartemen</option>
+                    <option value="rumah">Rumah</option>
+                    <option value="ruko">Ruko</option>
+                    <option value="rukan">Rukan</option>
+                </select>
+            </div>
+
+            <div class="form-group" id="detailTipeWrapper" style="display: none;">
+                <label for="detailTipe">Detail Tipe</label>
+                <select id="detailTipe" name="detailTipe">
+                    </select>
+            </div>
+
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="whatsapp">Nomor WhatsApp</label>
+                <input type="tel" id="whatsapp" name="whatsapp" placeholder="Contoh: 08123456789" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="lokasi">Lokasi Properti</label>
+                <select id="lokasi" name="lokasi" required>
+                    <option value="">-- Pilih Lokasi --</option>
+                    <option value="MOI">MOI</option>
+                    <option value="Kelapa Gading">Kelapa Gading</option>
+                    <option value="PIK 1">PIK 1</option>
+                    <option value="PIK 2">PIK 2</option>
+                    <option value="Lainnya">Lainnya</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="uraian">Uraikan properti atau hunian yang Anda cari</label>
+                <textarea id="uraian" name="uraian" rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submitButton">Kirim & Lanjut ke WhatsApp</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
