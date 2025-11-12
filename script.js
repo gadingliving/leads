@@ -94,3 +94,5 @@ document.addEventListener('DOMContentLoaded', function() {
         detailTipeWrapper.style.display = 'none';
     });
 });
+
+document.getElementById('current-year').textContent = new Date().getFullYear();
