@@ -46,18 +46,18 @@ p {
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 6px;
-    box-sizing: border-box; /* Penting untuk padding */
+    box-sizing: border-box; 
     font-size: 16px;
 }
 
 .form-group textarea {
-    resize: vertical; /* Izinkan user resize tinggi text area */
+    resize: vertical; 
 }
 
 button[type="submit"] {
     width: 100%;
     padding: 15px;
-    background-color: #25D366; /* Warna WhatsApp */
+    background-color: #25D366; 
     color: white;
     border: none;
     border-radius: 6px;
